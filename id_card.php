@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-
+<div class="col-12">
 <div style="font-family: Kalpurush; font-size: 30px;" >
 
 
@@ -22,17 +22,17 @@ if (isset($_GET['id'])) {
 		$id = $_GET['id'];
 			// echo out the contents of each row into a table
 
-		echo "<div class='row'>
-						<table border='1' cellpadding='10' align='center'>
+		echo "<div class='row text-black'>
+						<table border='1' cellpadding='10' align='center' style='color: #000'>
 							<tr>
-								<td><center><img src='assets/img/bdrcs.png' height='100' width='100'><br><b>বাংলাদেশ রেড ক্রিসেন্ট সোসাইটি <br> যুব রেড ক্রিসেন্ট, বগুড়া<br></b><i>বর্ষবরণ উৎসব ১৪২৫</i></center></td>
+								<td style='color: #000'><center><img src='assets/img/logo.jpg' height='100' width='150'><br><b>The Rocking Rock<br>Event 2k18<br></b><i>Entry Pass</i></center></td>
 							</tr>
 							<tr>
 								<td><center><img src='https://www.barcodesinc.com/generator/image.php?code=" .$id. "&style=197&type=C128B&width=150&height=50&xres=1&font=3' height='' width='300'></center></td>
 							</tr>
 						</table>
 				</div>
-				</div>";
+				</div></div>";
 		}	
 
 

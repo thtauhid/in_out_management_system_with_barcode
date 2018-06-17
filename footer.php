@@ -1,4 +1,3 @@
-                </div>
             </div>
         </div>
         <br><br><br>
@@ -9,6 +8,7 @@
                 <a href='out_temp.php' ><button type="button" class='btn btn-outline-info'>Out Temp</button></a>
                 <a href='out_perm.php' ><button type="button" class='btn btn-outline-info'>Out Perm</button></a>
                 <a href='status.php' ><button type="button" class='btn btn-outline-info'>Status</button></a>
+                <a href='info.php' ><button type="button" class='btn btn-outline-info'>Info</button></a>
                 <a href='entry.php' ><button type="button" class='btn btn-outline-info'>Entry</button></a>
                 <a href='id_card.php' ><button type="button" class='btn btn-outline-info'>ID Card</button></a>
             </form>

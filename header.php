@@ -2,6 +2,7 @@
 error_reporting(0);
 include('config.php');
 include('assets/classes/MysqliDb/MysqliDb.php');
+$db = new MysqliDb ($host, $user, $pass, $db);
 ?>
 <!doctype html>
 <html lang="en">
@@ -20,4 +21,3 @@ include('assets/classes/MysqliDb/MysqliDb.php');
         <br>
         <div class="container">
             <div class="row">
-                <div class="col-12">
