@@ -36,7 +36,7 @@ if ( ! file_exists('config.php' ) ) {
         Welcome to the config page.
     </div><hr>
         <form action="" method="post">
-            <input name="config_host" class="form-control" type="text" placeholder="Host"><br>
+            <input name="config_host" class="form-control" type="text" placeholder="Host" autofocus><br>
             <input name="config_username" class="form-control" type="text" placeholder="Username"><br>
             <input name="config_password" class="form-control" type="text" placeholder="Password"><br>
             <input name="config_database" class="form-control" type="text" placeholder="Database"><br>
