@@ -1,9 +1,9 @@
 <?php 
 
 //db_data
-$host	=	'localhost';
-$user	=	'root';
+$host	=	'';
+$user	=	'';
 $pass	=	'';
-$db 	=	'pb';
+$db 	=	'';
 
 ?>
