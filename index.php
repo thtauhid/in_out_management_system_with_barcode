@@ -13,6 +13,11 @@ if ( ! file_exists('config.php' ) ) {
         Was first used on 14 April, 2018 in Pahela Boisakh organised by Red Crescent Youth, Bogra. <br>
         Special thanks to Almahmudur Rahman (Youth Chief 2016-2018, Red Crescent Youth, Bogra) for encouraging me to develop this application. 
         </p>
+
+        <p class="alert alert-secondary box">
+        The source code is freely available at <a class="link" href="https://github.com/thtauhid/in_out_management_system_with_barcode">it's github repo</a>. <br>
+        Published under MIT Licence. You are fee to use or modify code for your projects. :) 
+        </p>
         <br><hr><br>
 
         <h4 class="alert">Contact:</h4>
